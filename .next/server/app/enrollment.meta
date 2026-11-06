@@ -1,0 +1,35 @@
+{
+  "status": 200,
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/enrollment/layout,_N_T_/enrollment/page,_N_T_/enrollment"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/enrollment/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49248,
+        "slots": {
+          "children": {
+            "hints": 49312,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/ff2d6b2b73dc428038b64731065552c2d29db0276419651672577b3b8f38bbb3/$/enrollment",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/enrollment/page"
+    },
+    "isFallback": false
+  }
+}

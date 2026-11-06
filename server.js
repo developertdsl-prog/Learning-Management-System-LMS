@@ -11,6 +11,10 @@ mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("DB connected"))
   .catch(err => console.log("DB error:", err));
 
+// Import course routes
+const courseRoutes = require('./routes/courses');
+app.use('/api/courses', courseRoutes);
+
 // Simple route
 app.get("/", (req, res) => {
   res.send("LMS API is running...");

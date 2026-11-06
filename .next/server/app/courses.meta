@@ -1,0 +1,35 @@
+{
+  "status": 200,
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/courses/layout,_N_T_/courses/page,_N_T_/courses"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/courses/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49248,
+        "slots": {
+          "children": {
+            "hints": 49312,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/eb8330653919b39b701e58325e4daeefce5ce5cab019816ef3e9c9d958d8b699/$/courses",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/courses/page"
+    },
+    "isFallback": false
+  }
+}
