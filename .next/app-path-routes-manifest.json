@@ -1,0 +1,22 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin/page": "/admin",
+  "/api/auth/login/route": "/api/auth/login",
+  "/api/auth/route": "/api/auth",
+  "/api/courses/route": "/api/courses",
+  "/api/enrollments/route": "/api/enrollments",
+  "/api/progress/route": "/api/progress",
+  "/api/users/route": "/api/users",
+  "/course-detail/page": "/course-detail",
+  "/courses/page": "/courses",
+  "/enrollment/page": "/enrollment",
+  "/favicon.ico/route": "/favicon.ico",
+  "/instructor/page": "/instructor",
+  "/lessons/page": "/lessons",
+  "/login/page": "/login",
+  "/page": "/",
+  "/profile/page": "/profile",
+  "/progress/page": "/progress",
+  "/register/page": "/register"
+}

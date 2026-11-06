@@ -1,0 +1,35 @@
+{
+  "status": 200,
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/course-detail/layout,_N_T_/course-detail/page,_N_T_/course-detail"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/course-detail/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49248,
+        "slots": {
+          "children": {
+            "hints": 49312,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/aaebdc3afe6886bdfa6e536e284fb71dbe65512284db344ff0fdb8bd623b7ba2/$/course-detail",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/course-detail/page"
+    },
+    "isFallback": false
+  }
+}
